@@ -72,3 +72,26 @@ html,body{
 #signup .btn:hover {
     background-color: rgba(227, 18, 18, 1)
 }
+
+@media(max-width:768px) {
+
+    #logo img {
+        width: 50%;
+    }
+
+    #counter .countdown {
+        font-size: 1.4em;
+    }
+
+    #icons .fa {
+        margin: 10px 0 0;
+        font-size: 2em;
+    }
+}
+
+@media(min-width:321px) and (max-width:568px) {
+
+    #logo img {
+        width: 20%;
+    }
+}
